@@ -1,0 +1,248 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Staatliches&display=swap");
+
+
+.paddingOntop {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.paddingOntopException {
+  padding-top: 25px;
+  padding-bottom: 0px; }
+
+.paddingOntop1 {
+  padding-top: 15px;
+  padding-bottom: 50px; }
+
+.align-items-center {
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px; }
+
+header {
+  background-color: #0061A6 !important; 
+  line-height: 1;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.navText{
+  font-family:'Montserrat', sans-serif;
+  color: white;
+  font-size: 12px;
+  text-align:left;
+  
+      padding-left: 180px;}
+
+.navText2{
+  font-family:'Montserrat', sans-serif;
+  color: white;
+  font-size: 12px;
+  text-align:right;
+  padding-right: 30px; }
+
+.img-fluid{
+  padding-top: 60px;
+  padding-bottom: 10px;
+  width:25%;
+}
+
+.titleLogo{
+  font-size: 14px;
+  color: #0061A6;
+  justify-content: center;
+  text-align: center;
+  align-items: center; 
+  font-family:'Montserrat', sans-serif;
+  letter-spacing: 2px;
+}
+.iconosComienzo{
+  width: 15%;
+}
+
+.iconoWhatsappInicio{
+  margin-right: 7px;
+}
+
+.title_CasosReales{
+  font-size: 40px;
+  line-height: 27px;
+  font-family: 'Montserrat SemiBold', sans-serif;
+  color: #62B446;
+}
+
+.title { 
+  font-family:'Montserrat SemiBold', sans-serif;
+  color: #666666;
+  background-color: #F5F5F5 !important;
+  padding-top: 20px;
+  margin-top: 50px;
+
+  }
+
+  .CasosReales_Subtitulos{
+    color:#0061A6;
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .CasosReales_Subtitulos2{
+    color:#0061A6;
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 20px;
+  }
+
+  .iconosTexto{
+    margin-left: 30%;
+    margin-right: 2%;
+    padding-top: 0px !important;
+  }
+
+  .CasosReales_Textos{
+  font-family:'Montserrat', sans-serif;
+  align-content: left;
+  justify-content: left;
+  font-size: 14px;
+  text-align: justify;
+  }
+
+  .imgMetricas{
+    align-content: center;
+    justify-content: center;
+    width: 60%;
+    align-items: center;
+     align-content: center;
+    justify-content: center;
+    padding-left: 12%;}
+  
+  .imgMetricas2{
+    align-content: center;
+    justify-content: center;
+    padding-left: 25%;}
+
+
+  .greenFont{
+    color:#62B446;
+    margin-bottom: 0;
+  }
+
+  .lightFont{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 2px;
+    padding-bottom: 80px;
+  }
+
+.preFooter{
+ background-color: #0061A6;
+ padding-top: 15px;
+ padding-bottom: 5px;
+}
+
+.preFooter_TitleLight{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20 px;
+}
+
+.preFooter_Title{
+  color: white;
+  font-size: 20 px;
+}
+
+.Footer{
+  padding-top: 15px;
+  padding-bottom: 3px;
+  background-color: #62B446;
+  color: white;
+}
+
+
+@media (max-width: 768px){
+   header{
+        text-align: center;
+}
+  .navText
+  {text-align: center;
+    padding-left: 0px}
+   .navText2
+  {text-align: center;
+      padding-right: 0px}
+
+.img-fluid{
+  padding-top: 40px;
+  
+  width:50%;
+}    
+.titleLogo{
+  font-size: 12px;
+  }
+.iconosComienzo{
+  width: 10%;
+}
+.title{
+  text-align: center;
+}
+.CasosReales_Textos{
+  text-align: center;
+  justify-content: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+  
+
+
+}
+
+
+
+
+@media (max-width: 576px) {
+      header{
+        text-align: center;
+}
+  .navText
+  {text-align: center;
+    padding-left: 0px}
+   .navText2
+  {text-align: center;
+      padding-right: 0px}
+
+.img-fluid{
+  padding-top: 40px;
+  
+  width:50%;
+}    
+.titleLogo{
+  font-size: 12px;
+  }
+.iconosComienzo{
+  width: 10%;
+}
+.title{
+  text-align: center;
+}
+.CasosReales_Textos{
+  text-align: center;
+  justify-content: center;
+}
+
+.imgMetricas{
+
+     align-content: center;
+    justify-content: center;
+    padding-left: 0%;}
+  
+  .imgMetricas2{
+
+    padding-left:0%;}
+  
+
+}
